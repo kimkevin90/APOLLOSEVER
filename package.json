@@ -1,0 +1,43 @@
+{
+  "name": "apollosever0114",
+  "version": "1.0.0",
+  "description": "아폴로서버",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index",
+    "dev": "nodemon -r esm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimkevin90/APOLLOSEVER.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kimkevin90/APOLLOSEVER/issues"
+  },
+  "homepage": "https://github.com/kimkevin90/APOLLOSEVER#readme",
+  "dependencies": {
+    "apollo-server": "^2.19.2",
+    "apollo-server-express": "^2.19.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "consola": "^2.15.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "graphql": "^15.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.11",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5",
+    "sequelize-cli": "^6.2.0",
+    "yup": "^0.32.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
